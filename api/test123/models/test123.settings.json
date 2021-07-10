@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "test123s",
+  "info": {
+    "name": "Test123",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aaa": {
+      "type": "string"
+    },
+    "seoo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.seo"
+    }
+  }
+}
