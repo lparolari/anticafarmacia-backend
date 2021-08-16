@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rooms",
+  "info": {
+    "name": "Room",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "period": {
+      "type": "enumeration",
+      "enum": [
+        "notte",
+        "settimana",
+        "mese"
+      ],
+      "required": true
+    },
+    "landingImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "gallery": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "amenities": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.amenity"
+    },
+    "cancellation": {
+      "type": "richtext"
+    },
+    "coord": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.coord"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_coords",
+  "info": {
+    "name": "coord",
+    "icon": "globe-africa"
+  },
+  "options": {},
+  "attributes": {
+    "lat": {
+      "type": "float"
+    },
+    "lng": {
+      "type": "float"
+    }
+  }
+}

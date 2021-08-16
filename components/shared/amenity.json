@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_amenities",
+  "info": {
+    "name": "TextWithIcon",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}
