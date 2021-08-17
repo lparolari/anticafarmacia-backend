@@ -26,32 +26,45 @@
         }
       }
     },
-    "hero": {
+    "banner": {
       "type": "component",
       "repeatable": false,
-      "component": "sections.hero",
-      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "home.banner"
     },
-    "bannerCarousel": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
+    "bookingForm": {
+      "type": "component",
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "home.booking-form"
+    },
+    "roomOverview": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home.room-overview"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home.cta"
     }
   }
 }

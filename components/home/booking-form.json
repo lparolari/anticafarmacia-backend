@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_booking_forms",
+  "info": {
+    "name": "bookingForm",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "checkIn": {
+      "type": "string"
+    },
+    "checkOut": {
+      "type": "string"
+    },
+    "guests": {
+      "type": "string"
+    },
+    "requestBooking": {
+      "type": "string"
+    }
+  }
+}

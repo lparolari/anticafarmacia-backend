@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_home_room_types",
+  "info": {
+    "name": "roomType",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "room": {
+      "model": "room"
+    },
+    "cardVertical": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.room-card"
+    },
+    "cardHorizontal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.room-card"
+    },
+    "cardSquare1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.room-card"
+    },
+    "cardSquare2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.room-card"
+    }
+  }
+}

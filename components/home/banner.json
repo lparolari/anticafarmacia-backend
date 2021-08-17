@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_home_banners",
+  "info": {
+    "name": "banner",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "emph": {
+      "type": "string"
+    },
+    "carousel": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "goldButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.gold-button"
+    },
+    "whiteButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.gold-button"
+    }
+  }
+}

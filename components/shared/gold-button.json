@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_gold_buttons",
+  "info": {
+    "name": "TwoLineButton",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "muted": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

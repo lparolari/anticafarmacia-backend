@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_room_overviews",
+  "info": {
+    "name": "roomOverview",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "emph": {
+      "type": "string"
+    },
+    "roomTypes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.room-type"
+    }
+  }
+}

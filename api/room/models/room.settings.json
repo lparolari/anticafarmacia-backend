@@ -66,6 +66,10 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.coord"
+    },
+    "blurb": {
+      "type": "string",
+      "maxLength": 100
     }
   }
 }
