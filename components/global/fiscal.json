@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_global_fiscals",
+  "info": {
+    "name": "Fiscal",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "businessName": {
+      "type": "string"
+    },
+    "vatNumber": {
+      "type": "string"
+    },
+    "legalEmail": {
+      "type": "string"
+    },
+    "legalAddress": {
+      "type": "string"
+    },
+    "privacyPolicy": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
