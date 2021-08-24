@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_contact_contacts",
+  "info": {
+    "name": "contact",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "disaplayValue": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}
