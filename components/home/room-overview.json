@@ -13,6 +13,9 @@
     "emph": {
       "type": "string"
     },
+    "desc": {
+      "type": "richtext"
+    },
     "roomTypes": {
       "type": "component",
       "repeatable": true,
