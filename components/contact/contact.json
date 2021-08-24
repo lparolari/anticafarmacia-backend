@@ -2,11 +2,12 @@
   "collectionName": "components_contact_contacts",
   "info": {
     "name": "contact",
-    "icon": "american-sign-language-interpreting"
+    "icon": "american-sign-language-interpreting",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "disaplayValue": {
+    "displayValue": {
       "type": "string"
     },
     "href": {
