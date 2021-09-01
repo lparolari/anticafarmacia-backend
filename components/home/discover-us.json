@@ -1,0 +1,75 @@
+{
+  "collectionName": "components_home_discoveruses",
+  "info": {
+    "name": "discoverUs",
+    "icon": "angle-double-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "emph": {
+      "type": "string"
+    },
+    "goldButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.gold-button"
+    },
+    "whiteButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.gold-button"
+    },
+    "parallax": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "img1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "img2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "img3": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

@@ -75,6 +75,16 @@
         }
       },
       "component": "home.about"
+    },
+    "discoverUs": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home.discover-us"
     }
   }
 }
