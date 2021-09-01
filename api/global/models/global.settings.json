@@ -68,7 +68,7 @@
         }
       }
     },
-    "Fiscal": {
+    "fiscal": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
