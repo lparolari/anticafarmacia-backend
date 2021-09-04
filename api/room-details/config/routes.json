@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/room-details",
+      "handler": "room-details.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/room-details",
+      "handler": "room-details.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/room-details",
+      "handler": "room-details.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
