@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_global_contacts",
+  "info": {
+    "name": "contacts",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "whatsapp": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.contact"
+    },
+    "mobile1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.contact"
+    },
+    "mobile2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.contact"
+    },
+    "email": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.contact"
+    }
+  }
+}
