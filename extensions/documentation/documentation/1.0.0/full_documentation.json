@@ -4885,6 +4885,23 @@
                     "type": "string"
                   }
                 }
+              },
+              "address": {
+                "type": "object",
+                "required": [
+                  "id"
+                ],
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "displayValue": {
+                    "type": "string"
+                  },
+                  "href": {
+                    "type": "string"
+                  }
+                }
               }
             }
           },
@@ -5187,6 +5204,23 @@
                 }
               },
               "email": {
+                "type": "object",
+                "required": [
+                  "id"
+                ],
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "displayValue": {
+                    "type": "string"
+                  },
+                  "href": {
+                    "type": "string"
+                  }
+                }
+              },
+              "address": {
                 "type": "object",
                 "required": [
                   "id"
