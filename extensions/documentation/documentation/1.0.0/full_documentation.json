@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "09/14/2021 11:33:46 PM"
+    "x-generation-date": "01/07/2022 8:44:49 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -5777,9 +5777,6 @@
                         "cancellation": {
                           "type": "string"
                         },
-                        "coord": {
-                          "type": "component"
-                        },
                         "blurb": {
                           "type": "string"
                         },
@@ -6950,9 +6947,6 @@
                         },
                         "cancellation": {
                           "type": "string"
-                        },
-                        "coord": {
-                          "type": "component"
                         },
                         "blurb": {
                           "type": "string"
@@ -8237,9 +8231,6 @@
                 "cancellation": {
                   "type": "string"
                 },
-                "coord": {
-                  "type": "component"
-                },
                 "blurb": {
                   "type": "string"
                 },
@@ -8863,23 +8854,6 @@
           "cancellation": {
             "type": "string"
           },
-          "coord": {
-            "type": "object",
-            "required": [
-              "id"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "lat": {
-                "type": "number"
-              },
-              "lng": {
-                "type": "number"
-              }
-            }
-          },
           "blurb": {
             "type": "string",
             "maxLength": 100
@@ -8929,9 +8903,6 @@
                 },
                 "cancellation": {
                   "type": "string"
-                },
-                "coord": {
-                  "type": "component"
                 },
                 "blurb": {
                   "type": "string"
@@ -9012,23 +8983,6 @@
           },
           "cancellation": {
             "type": "string"
-          },
-          "coord": {
-            "type": "object",
-            "required": [
-              "id"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "lat": {
-                "type": "number"
-              },
-              "lng": {
-                "type": "number"
-              }
-            }
           },
           "blurb": {
             "type": "string",

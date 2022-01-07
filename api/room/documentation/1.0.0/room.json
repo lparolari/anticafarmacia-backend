@@ -703,23 +703,6 @@
           "cancellation": {
             "type": "string"
           },
-          "coord": {
-            "type": "object",
-            "required": [
-              "id"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "lat": {
-                "type": "number"
-              },
-              "lng": {
-                "type": "number"
-              }
-            }
-          },
           "blurb": {
             "type": "string",
             "maxLength": 100
@@ -769,9 +752,6 @@
                 },
                 "cancellation": {
                   "type": "string"
-                },
-                "coord": {
-                  "type": "component"
                 },
                 "blurb": {
                   "type": "string"
@@ -852,23 +832,6 @@
           },
           "cancellation": {
             "type": "string"
-          },
-          "coord": {
-            "type": "object",
-            "required": [
-              "id"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "lat": {
-                "type": "number"
-              },
-              "lng": {
-                "type": "number"
-              }
-            }
           },
           "blurb": {
             "type": "string",

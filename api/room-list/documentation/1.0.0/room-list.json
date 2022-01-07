@@ -369,9 +369,6 @@
                 "cancellation": {
                   "type": "string"
                 },
-                "coord": {
-                  "type": "component"
-                },
                 "blurb": {
                   "type": "string"
                 },

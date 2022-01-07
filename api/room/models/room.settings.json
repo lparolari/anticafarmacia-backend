@@ -104,16 +104,6 @@
         }
       }
     },
-    "coord": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.coord",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "blurb": {
       "type": "string",
       "maxLength": 100,
