@@ -11,6 +11,7 @@
     "strapi": "strapi"
   },
   "devDependencies": {
+    "heroku": "^7.59.4",
     "yarn-upgrade-all": "^0.5.4"
   },
   "dependencies": {
