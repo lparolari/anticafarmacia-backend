@@ -630,6 +630,9 @@
                         "blurb": {
                           "type": "string"
                         },
+                        "pricing": {
+                          "type": "string"
+                        },
                         "localizations": {
                           "type": "array",
                           "items": {
@@ -1799,6 +1802,9 @@
                           "type": "string"
                         },
                         "blurb": {
+                          "type": "string"
+                        },
+                        "pricing": {
                           "type": "string"
                         },
                         "localizations": {

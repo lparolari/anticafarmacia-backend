@@ -707,6 +707,9 @@
             "type": "string",
             "maxLength": 100
           },
+          "pricing": {
+            "type": "string"
+          },
           "localizations": {
             "type": "array",
             "items": {
@@ -754,6 +757,9 @@
                   "type": "string"
                 },
                 "blurb": {
+                  "type": "string"
+                },
+                "pricing": {
                   "type": "string"
                 },
                 "localizations": {
@@ -836,6 +842,9 @@
           "blurb": {
             "type": "string",
             "maxLength": 100
+          },
+          "pricing": {
+            "type": "string"
           },
           "localizations": {
             "type": "array",

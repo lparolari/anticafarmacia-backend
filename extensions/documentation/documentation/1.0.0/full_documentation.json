@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "01/07/2022 8:44:49 PM"
+    "x-generation-date": "04/24/2022 3:17:52 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -5780,6 +5780,9 @@
                         "blurb": {
                           "type": "string"
                         },
+                        "pricing": {
+                          "type": "string"
+                        },
                         "localizations": {
                           "type": "array",
                           "items": {
@@ -6949,6 +6952,9 @@
                           "type": "string"
                         },
                         "blurb": {
+                          "type": "string"
+                        },
+                        "pricing": {
                           "type": "string"
                         },
                         "localizations": {
@@ -8234,6 +8240,9 @@
                 "blurb": {
                   "type": "string"
                 },
+                "pricing": {
+                  "type": "string"
+                },
                 "localizations": {
                   "type": "array",
                   "items": {
@@ -8858,6 +8867,9 @@
             "type": "string",
             "maxLength": 100
           },
+          "pricing": {
+            "type": "string"
+          },
           "localizations": {
             "type": "array",
             "items": {
@@ -8905,6 +8917,9 @@
                   "type": "string"
                 },
                 "blurb": {
+                  "type": "string"
+                },
+                "pricing": {
                   "type": "string"
                 },
                 "localizations": {
@@ -8987,6 +9002,9 @@
           "blurb": {
             "type": "string",
             "maxLength": 100
+          },
+          "pricing": {
+            "type": "string"
           },
           "localizations": {
             "type": "array",

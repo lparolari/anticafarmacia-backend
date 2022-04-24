@@ -112,6 +112,15 @@
           "localized": true
         }
       }
+    },
+    "pricing": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext",
+      "required": false
     }
   }
 }
